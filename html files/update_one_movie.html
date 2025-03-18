@@ -1,0 +1,8 @@
+<form method="POST">
+    <label>Name</label>
+    <input value="{{single_movie.Name}}"  name="Name">
+    <label>Description</label>
+    <input value="{{single_movie.Description}}"  name="Description">
+    <button>Save Changes</button>
+    {% csrf_token %}
+</form>

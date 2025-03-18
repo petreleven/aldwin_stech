@@ -1,0 +1,7 @@
+{{ all_player }}
+
+{% for each_player in all_player %}
+    <h1> {{each_player.username}} </h1>
+    <h2> {{each_player.password}}</h2>
+    {{each_player.profile_pic}}
+    {% endfor %}
