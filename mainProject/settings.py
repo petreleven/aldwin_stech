@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-ui(6v4%td8ldui-2u+f70w%kg(j+*i5$meb^eim1k7%#d$1!sb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["safaaaaaaaaaari-techhubbbbbbbbbb-production.up.railway.app"]
+ALLOWED_HOSTS = ["aldwinstech-production.up.railway.app"]
 
 
 # Application definition
@@ -112,7 +112,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Media files
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-CSRF_TRUSTED_ORIGINS=["https://safaaaaaaaaaari-techhubbbbbbbbbb-production.up.railway.app"]
+CSRF_TRUSTED_ORIGINS=["https://aldwinstech-production.up.railway.app"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
